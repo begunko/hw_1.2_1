@@ -2,13 +2,16 @@
   "name": "hw_1.2_1",
   "version": "1.0.0",
   "description": "",
-  "main": "date.js",
+  "main": "index.js",
   "bin": {
-    "simple-date": "./date.js"
+    "cmd2": "./index.js",
+    "cmd3": "./number.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/begunko/hw_1.2_1.git"
@@ -21,6 +24,8 @@
   },
   "homepage": "https://github.com/begunko/hw_1.2_1#readme",
   "dependencies": {
+    "date-fns": "^2.29.3",
+    "hw_1.2_1": "file:hw_1.2_1-1.0.0.tgz",
     "yargs": "^17.7.1"
   }
 }
